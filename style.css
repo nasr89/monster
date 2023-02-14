@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  display: flex;
+  height: 30px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: #9b004d;
+  margin-bottom: 20px;
+}
+.title {
+  text-align: center;
+  margin-left: calc(50% - 100px);
+  color: rgb(255, 255, 255);
+}
+.content {
+  display: grid;
+  justify-content: center;
+}
+.section {
+  margin-bottom: 20px;
+  width: 500px;
+  height: 100px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px 3px #1a191972;
+}
+
+.section .subhead {
+  text-align: center;
+  margin-top: 5px;
+}
+.health {
+  margin-top: 10px;
+  width: 400px;
+  margin-left: 9%;
+  height: 30px;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+.fillmonster {
+  height: 100%;
+  width: 100%;
+  background-color: #03d19e;
+  border-radius: 10px;
+}
+.fillyour {
+  height: 100%;
+  width: 100%;
+  background-color: #03d19e;
+  border-radius: 10px;
+}
+.buttons {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%;
+  margin-left: 40%;
+}
+.buttons button {
+  color: rgb(255, 255, 255);
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  width: 150px;
+  height: 50px;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  background: linear-gradient(130deg, #03d19e, #9b004d);
+}
+
+.buttons button:hover {
+  background: linear-gradient(-130deg, #03d19e, #9b004d);
+}
+
+.playAgain {
+  display: grid;
+  row-gap: 20px;
+  justify-content: center;
+  margin-top: 3%;
+  margin-left: 27%;
+  width: 600px;
+  height: 200px;
+  padding: 5px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px 3px #1a191972;
+}
+.playAgain button {
+  letter-spacing: 1px;
+  background: linear-gradient(130deg, #03d19e, #9b004d);
+  color: white;
+  border-radius: 10px;
+  width: 150px;
+  height: 50px;
+  font-size: 1rem;
+  margin-left: 200px;
+  margin-top: 20px;
+}
+.playAgain .gameOver,
+.result {
+  text-align: center;
+}
+.result {
+  font-size: 1rem;
+}
+.playAgain .result {
+  margin-top: 10px;
+}
+.playAgain {
+  display: none;
+}
+
+.battleLogs {
+  width: 500px;
+  height: auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 3px #1a191972;
+  margin-left: 32%;
+  margin-top: 10px;
+  text-align: center;
+  padding: 10px;
+}
+.logs {
+  text-align: center;
+  height: auto;
+}
+.logs p {
+  margin-top: 10px;
+  padding: 5px;
+}
